@@ -2,7 +2,8 @@
 FROM python:3.7-alpine
 
 #Updating pip
-RUN apk add --update py-pip
+RUN apk add --update py2-pip
+
 # Install python and pip
 RUN apk add --update py2-pip
 
